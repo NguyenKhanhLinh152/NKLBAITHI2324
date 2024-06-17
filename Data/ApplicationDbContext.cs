@@ -13,5 +13,6 @@ namespace NKLBAITHI2324.Data
         {
         }
         public DbSet<NKL391Person> NKL391Persons { get; set; }
+        public DbSet<NKL391Employee> NKL391Employees { get; set; }
     }
 }
